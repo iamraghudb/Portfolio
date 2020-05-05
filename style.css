@@ -86,7 +86,7 @@ h1{
 	margin-top: 230px;
 	/*margin-left: 30px;*/
     font-family: 'Montserrat', sans-serif;
-    animation-name: rollIn;
+    animation-name: bounceInRight;
 	animation-duration: 2s;
   
 	
@@ -105,8 +105,8 @@ h2{
   /*margin-top: 10px;*/
 	/*margin-left: 30px;*/
 	font-family: 'Montserrat', sans-serif;
-	animation-name: rollIn;
-	animation-duration: 2s;
+/* 	animation-name: rollIn;
+	animation-duration: 2s; */
 }
 
 #b{
