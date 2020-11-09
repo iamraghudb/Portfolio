@@ -1,52 +1,74 @@
-body{
-	overflow-x: hidden;
-	/*position: relative;*/
-	margin:auto 0;
+body {
+  overflow-x: hidden;
+  /*position: relative;*/
+  margin: auto 0;
   height: 100vh;
   width: 100vw;
-  	}
+}
 
- /* #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+/* #section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
   #section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
   #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
   #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
   #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}*/
 
-.navbar{
-	display: flex;
-	flex-direction: row;
-	font-size: 20;
-	list-style: none;
-	/*position: sticky;*/
-  
-	}
-
-	@media only screen and (max-width: 600px){
-    .navbar{
-        font-size: 0.8em;
-        padding: 0;
-    }
-}
-  @media only screen and (max-width: 600px){
-    .intro{
-        font-size: 0.7em;
-        padding: 0;
-    }
+.navbar {
+  display: flex;
+  flex-direction: row;
+  font-size: 20;
+  list-style: none;
+  /*position: sticky;*/
 }
 
-@media only screen and (max-height: 300px){
+@media only screen and (max-width: 600px) {
+  .navbar {
+    font-size: 1.2em;
+    padding: 0;
+    margin-left: 2px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .intro {
+    font-size: 0.7em;
+    padding: 0;
+    position: relative;
+
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+/*@media only screen and (max-height: 300px){
   .intro{
     font-size: 0.5em;
         padding: 0;
               position: relative;
 
-  top: 20%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
  
   }
+}*/
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+  background: url("plain.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+}
 
 
 
