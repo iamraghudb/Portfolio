@@ -70,30 +70,13 @@ body {
   position: relative;
 }
 
-
-
-
-.sticky{
-    position: fixed;
-    top: 0;
-    width: 100%;
-		}	 
+	 
 
 
     
 
-.header{
-	
-   display:flex; 
-   flex-direction:column;
-   background: url("bbb.jpg");
-   width: 100vw;
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-align: center;
-  position: relative;
-}
+
+ 
 
 .intro{
 
